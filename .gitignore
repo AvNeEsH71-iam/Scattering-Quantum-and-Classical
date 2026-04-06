@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build artifacts
+build/
+dist/
+app/build/
+app/dist/
+
+# Runtime generated media/logs in root app workspace
+*.log
+*.gif
+*.mp4
+
+# Keep website downloadable/demo assets tracked
+!scattering-explorer-website/assets/demo.mp4
+
+# Keep website executable tracked for download link
+*.exe
+!scattering-explorer-website/assets/ScatteringExplorer.exe
+
+# VS Code
+.vscode/
